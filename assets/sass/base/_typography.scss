@@ -1,0 +1,36 @@
+$light: 300;
+$regular: 400;
+
+$font-stack: 'Roboto', sans-serif;
+$font-titulo: 'PT Mono', monospace;
+
+$xxx-large: 3.9rem;
+$xx-large: 2.0rem;
+$x-large: 1.8rem;
+$large: 1.2;
+$medium: 1rem;
+
+h1 {
+    font-family: $font-titulo;
+    font-weight: $regular; 
+    font-size: $xxx-large;
+    color: $black;
+}
+
+h2 {
+    font-size: $xx-large; 
+    font-family: $font-titulo;
+}
+
+h3 {
+    font-size: $xx-large; 
+    font-family: $font-titulo;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 1rem;
+    color: $outer-space;
+    font-weight: $regular; 
+    font-family: $font-stack;
+}

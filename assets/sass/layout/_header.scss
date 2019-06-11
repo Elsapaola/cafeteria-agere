@@ -1,0 +1,15 @@
+.logo {
+    width: 46px;
+}
+
+a {
+    &:hover {
+        color: $quick-silver!important;
+    }
+    &:active {
+        color: $quick-silver!important;
+    }
+}
+
+
+
