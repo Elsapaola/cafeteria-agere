@@ -11,5 +11,14 @@ a {
     }
 }
 
+a{
+    color: $quick-silver;
+    font-family: $font-titulo;
+    font-weight: $regular; 
+    font-size: $large;
+}
 
-
+.nav-link {
+    padding-right: 2.5rem!important;
+    padding-left: 2.5rem!important;
+}

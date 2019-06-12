@@ -9865,6 +9865,18 @@ a:active {
   color: #A2A2A2 !important;
 }
 
+a {
+  color: #A2A2A2;
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-size: 1.2;
+}
+
+.nav-link {
+  padding-right: 2.5rem !important;
+  padding-left: 2.5rem !important;
+}
+
 section {
   background-image: url(../img/post-image.jpg);
   background-repeat: no-repeat;
@@ -9878,24 +9890,31 @@ section {
   top: 1rem;
 }
 
-.btn-secondary {
-  border-radius: 26px !important;
+.btn {
+  font-family: "PT Mono", monospace;
+}
+
+.btn-outline-success:hover {
+  color: #A2A2A2;
+  background-color: #4CA866;
+  border-radius: 1px;
+  margin-right: 0%;
+}
+
+.btn-outline-success {
+  color: #A2A2A2;
+  border-radius: 1px;
+  margin: none !important;
+  margin: 10px;
+}
+
+.active {
+  background-color: #4CA866;
+  color: #fff;
 }
 
 .button {
-  font-family: "Roboto", sans-serif;
-}
-
-.btn-grey {
-  background-color: white;
-  border: 1px solid gray;
-  border-radius: 1px;
-  margin: 5px;
-}
-
-.btn-success {
-  border-radius: 1px;
-  margin: 5px;
+  border: 1px solid #c2c3c2 !important;
 }
 
 /*# sourceMappingURL=main.css.map */

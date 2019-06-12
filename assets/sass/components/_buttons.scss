@@ -1,19 +1,26 @@
-.btn-secondary {
-    border-radius: 26px!important;
+.btn {
+    font-family: $font-titulo;
+}
+
+.btn-outline-success:hover {
+    color: $quick-silver;
+    background-color: $shiny-shamrock;
+    border-radius: 1px;
+    margin-right: 0%;
+}
+
+.btn-outline-success {
+    color: $quick-silver;
+    border-radius: 1px;  
+    margin: none!important;
+    margin: 10px;
+}
+
+.active {
+    background-color: $shiny-shamrock;
+    color: $white;
 }
 
 .button {
-    font-family: $font-stack;
-}
-
-.btn-grey{
-    background-color: white;
-    border: 1px solid gray;
-    border-radius: 1px;
-    margin: 5px;
-}
-
-.btn-success {
-    border-radius: 1px;
-    margin: 5px;
+    border: 1px solid #c2c3c2!important;
 }
